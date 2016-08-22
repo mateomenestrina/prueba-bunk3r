@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0d557c5b-c8e4-48e4-8467-645a920c6654" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.sh" afterPath="$PROJECT_DIR$/bootstrap.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default_nginx_site" afterPath="$PROJECT_DIR$/default_nginx_site" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.php" afterPath="$PROJECT_DIR$/html/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/chart.twig" afterPath="$PROJECT_DIR$/templates/chart.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.twig" afterPath="$PROJECT_DIR$/templates/index.twig" />
     </list>
     <ignored path="prueba-bunk3r.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,23 +36,23 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5833335">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state vertical-scroll-proportion="51.041668">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
-                <marker date="1471834508000" expanded="true" signature="714:771" placeholder="SELECT track... twitter_tracking" />
-                <marker date="1471834508000" expanded="true" signature="1024:1269" placeholder="SELECT DATE(... " />
-                <marker date="1471834508000" expanded="true" signature="1682:1928" placeholder="SELECT DATE(... " />
-                <marker date="1471834508000" expanded="true" signature="2332:2559" placeholder="SELECT DATE(... " />
+                <marker date="1471841483000" expanded="true" signature="714:771" placeholder="SELECT track... twitter_tracking" />
+                <marker date="1471841483000" expanded="true" signature="1025:1270" placeholder="SELECT DATE(... " />
+                <marker date="1471841483000" expanded="true" signature="1683:1929" placeholder="SELECT DATE(... " />
+                <marker date="1471841483000" expanded="true" signature="2333:2560" placeholder="SELECT DATE(... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default_nginx_site" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default_nginx_site" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/default_nginx_site">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42416453">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -74,18 +71,18 @@
       <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.791667">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="28" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chart.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chart.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/chart.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.958333">
-              <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.42465752">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -144,12 +141,12 @@
         <option value="$PROJECT_DIR$/migrations/20160821144007_nuevo_campo_datetime.php" />
         <option value="$PROJECT_DIR$/migrations/20160821154015_update_campo_datetime.php" />
         <option value="$PROJECT_DIR$/migrations/20160822015531_agregar_indices.php" />
-        <option value="$PROJECT_DIR$/html/index.php" />
         <option value="$PROJECT_DIR$/templates/layout/main.twig" />
         <option value="$PROJECT_DIR$/templates/index.twig" />
         <option value="$PROJECT_DIR$/bootstrap.sh" />
-        <option value="$PROJECT_DIR$/templates/chart.twig" />
         <option value="$PROJECT_DIR$/default_nginx_site" />
+        <option value="$PROJECT_DIR$/html/index.php" />
+        <option value="$PROJECT_DIR$/templates/chart.twig" />
       </list>
     </option>
   </component>
@@ -163,8 +160,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="70" />
+    <option name="x" value="16" />
+    <option name="y" value="158" />
     <option name="width" value="1402" />
     <option name="height" value="732" />
   </component>
@@ -289,7 +286,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="70" width="1402" height="732" extended-state="0" />
+    <frame x="16" y="158" width="1402" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31764707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -332,10 +329,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
-            <marker date="1471834508000" expanded="true" signature="714:771" placeholder="SELECT track... twitter_tracking" />
-            <marker date="1471834508000" expanded="true" signature="1024:1269" placeholder="SELECT DATE(... " />
-            <marker date="1471834508000" expanded="true" signature="1682:1928" placeholder="SELECT DATE(... " />
-            <marker date="1471834508000" expanded="true" signature="2332:2559" placeholder="SELECT DATE(... " />
+            <marker date="1471841483000" expanded="true" signature="714:771" placeholder="SELECT track... twitter_tracking" />
+            <marker date="1471841483000" expanded="true" signature="1025:1270" placeholder="SELECT DATE(... " />
+            <marker date="1471841483000" expanded="true" signature="1683:1929" placeholder="SELECT DATE(... " />
+            <marker date="1471841483000" expanded="true" signature="2333:2560" placeholder="SELECT DATE(... " />
           </folding>
         </state>
       </provider>
@@ -500,14 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/main.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.333333">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.962963">
@@ -516,42 +505,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/default_nginx_site">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="51.041668">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <marker date="1471841483000" expanded="true" signature="714:771" placeholder="SELECT track... twitter_tracking" />
+            <marker date="1471841483000" expanded="true" signature="1025:1270" placeholder="SELECT DATE(... " />
+            <marker date="1471841483000" expanded="true" signature="1683:1929" placeholder="SELECT DATE(... " />
+            <marker date="1471841483000" expanded="true" signature="2333:2560" placeholder="SELECT DATE(... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.791667">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="28" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/main.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.333333">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/chart.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.958333">
-          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.42465752">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5833335">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <marker date="1471834508000" expanded="true" signature="714:771" placeholder="SELECT track... twitter_tracking" />
-            <marker date="1471834508000" expanded="true" signature="1024:1269" placeholder="SELECT DATE(... " />
-            <marker date="1471834508000" expanded="true" signature="1682:1928" placeholder="SELECT DATE(... " />
-            <marker date="1471834508000" expanded="true" signature="2332:2559" placeholder="SELECT DATE(... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default_nginx_site">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42416453">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>

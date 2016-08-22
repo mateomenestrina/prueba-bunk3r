@@ -23,7 +23,7 @@ $app->get('/chart', function () use ($twig, $db, $app) {
     $stmt = $db->prepare("SELECT tracking_type, tracking_term FROM twitter_tracking");
     $stmt->execute();
 
-    $data = array('hashtags' => array(), 'mentions' => array(), 'user' => array());
+    $data = array('hashtags' => array(), 'mentions' => array(), 'users' => array());
 
     foreach ($stmt->fetchAll() as $track) {
 
@@ -58,8 +58,8 @@ $app->get('/chart', function () use ($twig, $db, $app) {
             $stmt->execute(array($track['tracking_term'], REPORT_START));
 
             while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-                if (!isset($data['user'][$row['d']])) $data['user'][$row['d']] = 0;
-                $data['user'][$row['d']] += $row['q'];
+                if (!isset($data['users'][$row['d']])) $data['users'][$row['d']] = 0;
+                $data['users'][$row['d']] += $row['q'];
 
             }
         }
@@ -72,7 +72,7 @@ $app->get('/chart', function () use ($twig, $db, $app) {
 
     $data['hashtags'] = array_values($data['hashtags']);
     $data['mentions'] = array_values($data['mentions']);
-    $data['user']     = array_values($data['user']);
+    $data['users']     = array_values($data['users']);
     $data['dates']    = array_values($data['dates']);
 
     echo json_encode($data);
@@ -87,15 +87,15 @@ function fillDates($dates, $min)
 {
     ksort($dates['mentions']);
     ksort($dates['hashtags']);
-    ksort($dates['user']);
+    ksort($dates['users']);
 
     $max = end(array_keys($dates['mentions']));
 
     if ($max < end(array_keys($dates['hashtags'])))
         $max = end(array_keys($dates['hashtags']));
 
-    if ($max < end(array_keys($dates['user'])))
-        $max = end(array_keys($dates['user']));
+    if ($max < end(array_keys($dates['users'])))
+        $max = end(array_keys($dates['users']));
 
 
     while ($min <= $max) {
@@ -112,10 +112,10 @@ function fillDates($dates, $min)
             $return['hashtags'][$min] = 0;
         }
 
-        if (isset($dates['user'][$min])) {
-            $return['user'][$min] = $dates['user'][$min];
+        if (isset($dates['users'][$min])) {
+            $return['users'][$min] = $dates['users'][$min];
         } else {
-            $return['user'][$min] = 0;
+            $return['users'][$min] = 0;
         }
         $return['dates'][$min] = $min;
         $min = date('Y-m-d', strtotime($min . ' + 1 day'));
