@@ -20,5 +20,5 @@ cp -f /vagrant/default_nginx_site /etc/nginx/sites-enabled/default && service ng
 curl -sS https://bunkerdb.com/twitter.sql.bz2 | bunzip2 | mysql -u root -pbunker
 
 
-
+php vendor/bin/phinx migrate
 

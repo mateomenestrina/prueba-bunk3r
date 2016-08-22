@@ -1,24 +1,53 @@
+<style>
+    @keyframes loading {
+        0% {
+           transform: rotate(0);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    .glyphicon-refresh {
+
+        margin: 10px;
+        animation: loading 2s infinite;
+    }
+
+</style>
+
+
+        <div class="center-block">
+            <span class="glyphicon glyphicon-refresh"></span>
+        </div>
+
+
 <div id="chart" style="width:100%; height:400px;"></div>
 
 <script type="application/javascript">
-    $(function () {
-        $('#chart').highcharts({
-            title: {
-                text: 'Twitter stats'
-            },
-            xAxis: {
-                categories: [{% for date in data.dates %} '{{ date }}', {% endfor %}]
-            },
-            series: [{
-                name: 'Mentions',
-                data: [{%   for mention in data.mentions %} {{ mention }}, {% endfor %}]
-            }, {
-                name: 'Hashtags',
-                data: [{%   for hashtag in data.hashtags %} {{ hashtag }}, {% endfor %}]
-            }, {
-                name: 'User',
-                data: [{%   for user in data.user %} {{ user }}, {% endfor %}]
-            }]
+    $(document).ready(function () {
+
+        $.getJSON("/chart", function (data) {
+
+            $('#chart').highcharts({
+                title: {
+                    text: 'Twitter stats'
+                },
+                xAxis: {
+                    categories: data.dates
+                },
+                series: [{
+                    name: 'Mentions',
+                    data: data.mentions
+                }, {
+                    name: 'Hashtags',
+                    data: data.hashtags
+                }, {
+                    name: 'User',
+                    data: data.user
+                }]
+            });
+
+            $(".glyphicon-refresh").hide();
         });
     });
 </script>
