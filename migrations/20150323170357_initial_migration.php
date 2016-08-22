@@ -10,7 +10,7 @@ class InitialMigration extends AbstractMigration
      */
     public function up()
     {
-        echo "This actually does nothing, but I want it to be there in order for candidates to know where the configuration and migrations folder is" . PHP_EOL;
+        //echo "This actually does nothing, but I want it to be there in order for candidates to know where the configuration and migrations folder is" . PHP_EOL;
     }
 
     /**

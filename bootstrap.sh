@@ -18,3 +18,7 @@ composer install --prefer-dist
 cp -f /vagrant/default_nginx_site /etc/nginx/sites-enabled/default && service nginx restart
 
 curl -sS https://bunkerdb.com/twitter.sql.bz2 | bunzip2 | mysql -u root -pbunker
+
+
+
+
